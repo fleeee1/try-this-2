@@ -1,0 +1,19 @@
+body {
+  
+}
+
+.header {
+  height: 200;
+  background: #1f2937;
+  color: white
+}
+
+li {
+  list-style-type: none;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

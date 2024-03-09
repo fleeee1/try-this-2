@@ -1,16 +1,35 @@
 body {
-  
+  color: #F9FAF8;
 }
 
 .header {
   height: 200;
   background: #1f2937;
-  color: white
+  color: #F9FAF8;
+}
+
+.logo {
+  
+
+}
+
+.logo, .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.hero {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+
 }
 
 li {
   list-style-type: none;
-
+  font-size: 18px;
 }
 
 a {
@@ -21,8 +40,9 @@ a {
 button {
   cursor: pointer;
   padding: 4px 20px;
-  border-radius: 8px;
+  border-radius: 6px;
   border: none;
   background: #3882F6;
-  color: white;
+  color: #F9FAF8;
+  width: 100px;
 }

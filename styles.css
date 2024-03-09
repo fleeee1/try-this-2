@@ -17,3 +17,12 @@ a {
   color: white;
   text-decoration: none;
 }
+
+button {
+  cursor: pointer;
+  padding: 4px 20px;
+  border-radius: 8px;
+  border: none;
+  background: #3882F6;
+  color: white;
+}

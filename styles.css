@@ -102,7 +102,9 @@ button {
   width: 100px;
 }
 
-
+.body3 {
+    background: #3882F6;
+}
 
 .footer {
     display: flex;

@@ -1,30 +1,26 @@
 body {
-  color: #F9FAF8;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .header {
   height: 200;
   background: #1f2937;
   color: #F9FAF8;
+  
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .logo {
-  
-
-}
-
-.logo, .links {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-
-.hero {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 48px;
-  font-weight: 800;
-
+  font-size: 24px;
+  padding: 4px 150px;
+  color: #F9FAF8;
 }
 
 li {
@@ -37,6 +33,16 @@ a {
   text-decoration: none;
 }
 
+.body1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+   align-items: center;
+
+}
+
 button {
   cursor: pointer;
   padding: 4px 20px;
@@ -45,4 +51,9 @@ button {
   background: #3882F6;
   color: #F9FAF8;
   width: 100px;
+}
+
+.body1 {
+  background: #F9FAF8;
+
 }

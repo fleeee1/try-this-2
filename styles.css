@@ -1,37 +1,89 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 
 }
 
 .header {
-  height: 200;
   background: #1f2937;
   color: #F9FAF8;
-  
+  height: 45px;
 }
 
 .container1 {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-end;
+  justify-content: space-evenly;
 }
 
 .logo {
-  font-size: 24px;
-  padding: 4px 150px;
+  font-size: 14px;
+  font-weight: bold;
   color: #F9FAF8;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
 }
 
 li {
   list-style-type: none;
   font-size: 18px;
+  background-color: #1f2937;
 }
 
 a {
   color: white;
   text-decoration: none;
 }
+
+.container2 {
+background: #1f2937;
+color: #F9FAF8;
+display: block;
+block-size: auto;
+
+
+
+}
+
+.hero {
+font-size: 48px;
+font-weight: bold;
+}
+
+.subtext {
+
+}
+
+
+
+
+
+
+.placeholder {
+    
+    height: 140px;
+    width: 350px;
+    background: rgb(129, 124, 140);
+    margin-left: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button1 {
+    cursor: pointer;
+    padding: 4px 20px;
+    border-radius: 6px;
+    border: none;
+    background: #3882F6;
+    color: #F9FAF8;
+    width: 100px;
+  }
+
+
+
 
 .body1 {
   background: #F9FAF8;
@@ -45,7 +97,6 @@ a {
     gap: 25px;
 
 }
-
 
 .box-1 {
     height: 100px;
@@ -92,7 +143,7 @@ a {
     color:black;
     font-style: #1F2937;
 }
-button {
+.button2 {
   cursor: pointer;
   padding: 4px 20px;
   border-radius: 6px;
@@ -103,7 +154,13 @@ button {
 }
 
 .body3 {
+    background: #F9FAF8;
+    color: #F9FAF8;
+}
+
+.blue-box {
     background: #3882F6;
+
 }
 
 .footer {

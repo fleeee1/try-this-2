@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  max-width: 1000px;
 
 }
 
@@ -32,6 +33,7 @@ li {
   list-style-type: none;
   font-size: 18px;
   background-color: #1f2937;
+  color: #F9FAF8;
 }
 
 a {
@@ -52,6 +54,7 @@ padding: 25px;
 .hero {
 font-size: 48px;
 font-weight: bold;
+
 }
 
 .hero, .subtext {
@@ -59,18 +62,22 @@ font-weight: bold;
    margin: 0px 85px;
 }
 
+
+
 .placeholder {
     
     height: 140px;
     width: 350px;
     background: rgb(129, 124, 140);
-    margin-left: 800px;
+
     display: flex;
     align-items: center;
     justify-content: center;
-
     
 }
+
+
+
 
 .button1 {
     cursor: pointer;
@@ -80,7 +87,7 @@ font-weight: bold;
     background: #3882F6;
     color: #F9FAF8;
     width: 100px;
-    
+
   }
 
 

@@ -10,14 +10,17 @@ body {
 }
 
 .container1 {
+
   display: flex;
   justify-content: space-evenly;
+  text-wrap: wrap;
 }
 
 .logo {
   font-size: 14px;
   font-weight: bold;
   color: #F9FAF8;
+  width: 5px 85px;
 }
 
 .links {
@@ -39,8 +42,8 @@ a {
 .container2 {
 background: #1f2937;
 color: #F9FAF8;
-display: block;
-block-size: auto;
+padding: 25px;
+
 
 
 
@@ -51,14 +54,10 @@ font-size: 48px;
 font-weight: bold;
 }
 
-.subtext {
-
+.hero, .subtext {
+    width: 400px;
+   margin: 0px 85px;
 }
-
-
-
-
-
 
 .placeholder {
     
@@ -69,6 +68,7 @@ font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
+
     
 }
 
@@ -80,6 +80,7 @@ font-weight: bold;
     background: #3882F6;
     color: #F9FAF8;
     width: 100px;
+    
   }
 
 

@@ -1,0 +1,36 @@
+* {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: #1f2937;
+    color: #F9FAF8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-left {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar-right {
+    
+    display: flex;
+    gap: 25px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+  }

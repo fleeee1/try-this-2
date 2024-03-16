@@ -5,35 +5,31 @@
 .header {
     background: #1f2937;
     color: #F9FAF8;
+
 }
 
 .navbar {
     display: flex;
-    
- 
+    justify-content: space-around;
 }
 
 .navbar-left {
-    margin-left: 200px;
     font-size: 24px;
     color: #F9FAF8;
-    border: 2px solid red;
-  
 }
 
 .navbar-right {
     display: flex;
-    margin-right: 3px;
     gap: 25px;
     font-size: 18px;
-    color: #E5E7EB;
-    border: 2px solid red;
+    color: #E5E7EB
 }
 
 li {
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
+    flex-direction: row;
 
 }
 
@@ -44,25 +40,29 @@ a {
 
 .container {
     display: flex;
-    flex-direction: column;
-    width: 400px;
+    flex-direction: row;
+    justify-content: space-around;
   }
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 .hero {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-
-    margin-top: 70px;
-    border: 2px solid red;
-
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .subtext {
     font-size: 18px;
     color: #F9FAF8;
-
-    border: 2px solid red;
+    width: 450px;
 }
 
 .button1 {
@@ -73,7 +73,6 @@ a {
     background: #3882F6;
     color: #F9FAF8;
     width: 100px;
-    border: 2px solid red;
   }
   
   .placeholder {
@@ -83,6 +82,4 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
-    
 }

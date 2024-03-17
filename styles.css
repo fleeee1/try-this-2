@@ -99,10 +99,10 @@ font-weight: bold;
 
 }
 
-.container {
+.container2 {
     display: flex;
     justify-content: center;
-    gap: 25px;
+
 
 }
 

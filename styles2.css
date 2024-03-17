@@ -10,10 +10,10 @@
 
 .navbar {
     display: flex;
-    justify-content: space-around;
 }
 
 .navbar-left {
+    padding: 2px 175px;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -42,6 +42,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 65px 400px;
   }
 
 .container-left {

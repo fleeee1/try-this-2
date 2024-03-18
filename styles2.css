@@ -234,20 +234,30 @@ a {
       background: #F9FAF8;
       color: #F9FAF8;
   }
+
+  .container5 {
+
+    background: #F9FAF8;
+  }
   
   .blue-box {
       background: #3882F6;
       height: 100px;
+      width: auto;
       font-weight: 400;
+      padding: 50px 50px;
+      margin: 50px 80px;
+
   }
 
   .container6 {
-      
+  
       display: flex;
   }
   
   .product {
       background: #3882F6;
+      
   }
 
   .button2 {
@@ -260,7 +270,12 @@ a {
     width: 100px;
   }
 
-  
+
+
+
+
+
+/* FOOTER */
 
   .footer {
       display: flex;

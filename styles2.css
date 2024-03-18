@@ -105,9 +105,9 @@ a {
   
   .container2 {
       display: flex;
-  
       justify-content: center;
-      gap: 50px;
+      gap: 70px;
+      padding: 10px;
 
   }
   
@@ -160,25 +160,25 @@ a {
     }
 
     .box1-text {
-      color: red;
+      color: #1F2937;
       width: 150px;
       text-align: center;
 }
 
     .box2-text {
-      color: red;
+      color: #1F2937;
       width: 150px;
       text-align: center;
 }
 
     .box3-text {
-      color: red;
+      color: #1F2937;
       width: 150px;
       text-align: center;
 }
 
     .box4-text {
-      color: red;
+      color: #1F2937;
       width: 150px;
       text-align: center;
 }

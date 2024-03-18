@@ -192,8 +192,8 @@ a {
       font-style: #1F2937;
       height: 80px;
       display: flex;
-
       padding: 100px;
+      height: auto;
   }
   
    .container4 {
@@ -201,13 +201,12 @@ a {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 50px 250px;
+
    }
 
 
   .quote {
       color: #1F2937;
- 
       font-style: italic;
       font-size: 36px;
       font-weight: lighter;

@@ -183,12 +183,6 @@ a {
       text-align: center;
 }
 
-
-
-
-
-
-
 /* THIRD SECTION */
 
 
@@ -244,22 +238,31 @@ a {
   
   .blue-box {
       background: #3882F6;
+      height: 100px;
+      font-weight: 400;
+  }
+
+  .container6 {
+      
+      display: flex;
   }
   
   .product {
-    
+      background: #3882F6;
   }
-
 
   .button2 {
     cursor: pointer;
     padding: 4px 20px;
     border-radius: 6px;
-    border: none;
+    border-style: none;
     background: #3882F6;
-    color: #F9FAF8;
+    color: red;
     width: 100px;
   }
+
+  
+
   .footer {
       display: flex;
       justify-content: center;

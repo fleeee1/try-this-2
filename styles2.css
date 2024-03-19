@@ -293,4 +293,7 @@ a {
       justify-content: center;
       background: #1F2937;
       color: #F9FAF8;
+      font-size: 14px;
+      font-weight: 150;
+      padding: 15px 0px;
   }

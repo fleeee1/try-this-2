@@ -10,10 +10,12 @@
 
 .navbar {
     display: flex;
+    justify-content: space-around;
+    
 }
 
 .navbar-left {
-    padding: 2px 175px;
+
     font-size: 24px;
     font-weight: 400;
     color: #F9FAF8;
